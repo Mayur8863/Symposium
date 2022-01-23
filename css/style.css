@@ -104,3 +104,15 @@ body{
   }
 }
 
+/* about-content */
+.about-content div{
+  margin: 40px 50px;
+  font-family:'Montserrat', sans-serif;
+  justify-content: center;
+}
+
+.about-content div h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
