@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
 body{
     color: #fff !important;
   background-color:#1f1f1f; 
 }
-
-
+/* theme */
+#theme div{
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 2px;
+}
+/* about */
+#about{
+  letter-spacing: 2px;
+}
 /* *****EVENTS***** */
 
 #events {
@@ -66,6 +74,12 @@ body{
   font-weight: 600;
   font-family:'Montserrat', sans-serif;
   font-size: 28px;
+}
+.card > .content > .imgdiv img{
+  border-radius: 15px;
+  margin-top: 2em;
+  width: 300px;
+  font-family: "Montserrat", sans-serif;
 }
 .btn-div{
     margin: 50px 1.5em;    
